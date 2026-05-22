@@ -103,3 +103,9 @@ Delete the Load Balancer created in step 9 and 10.
 Go to EC2 console, access security group section and delete security groups created in previous steps
 ```
 
+## Live Application
+
+Frontend URL:
+
+http://k8s-threetie-mainlb-73c240e86c-844616848.ap-south-1.elb.amazonaws.com
+
