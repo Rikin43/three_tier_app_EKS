@@ -17,7 +17,32 @@ The `Kubernetes-Manifests-Files` directory holds Kubernetes manifests for deploy
 - Private ECR repositories for secure image management
 - Helm charts for efficient monitoring setup
 
-📈 **The journey covered everything from setting up tools to deploying a Three-Tier app, ensuring data persistence.
+## Tech Stack
+
+- React Frontend
+- Node.js Backend
+- MongoDB
+- Kubernetes
+- AWS EKS
+- AWS ALB Ingress Controller
+
+---
+
+## Features
+
+- Add Tasks
+- Delete Tasks
+- MongoDB Persistence
+- Kubernetes Deployment
+- ALB Ingress Routing
+
+## Kubernetes Components
+
+- Frontend Deployment & Service
+- Backend Deployment & Service
+- MongoDB Deployment & Service
+- Ingress Controller
+- AWS Load Balancer Controller
 
 ### Step 1: IAM Configuration
 - Create a user `eks-admin` with `AdministratorAccess`.
