@@ -1,4 +1,45 @@
+# Three-Tier Application on Amazon EKS
+ 
+A production-ready, cloud-native three-tier web application deployed on Amazon Elastic Kubernetes Service (EKS). This project demonstrates modern DevOps practices including containerization, orchestration, and infrastructure as code.
 
+## 🎯 Project Overview
+ 
+This is a full-stack web application deployed on AWS EKS (Elastic Kubernetes Service) with three distinct layers:
+ 
+1. **Frontend Layer** - React-based single-page application
+2. **Backend Layer** - Node.js/Express REST API
+3. **Database Layer** - MongoDB for data persistence
+
+### Key Features
+ 
+✅ **Containerized Application** - Docker images for all application tiers  
+✅ **Kubernetes Native** - Complete K8s manifests for deployment  
+✅ **Auto-Scaling Ready** - Configured for horizontal pod autoscaling  
+✅ **Health Checks** - Liveness and readiness probes for reliability  
+✅ **Load Balancing** - AWS ALB integration for traffic distribution  
+✅ **Data Persistence** - Persistent volumes for database storage  
+✅ **Secrets Management** - Kubernetes secrets for credentials  
+✅ **Rolling Updates** - Zero-downtime deployments  
+ 
+---
+
+## 📦 Prerequisites
+ 
+### Local Machine
+ 
+- **Git** - Version control
+- **AWS Account** - With appropriate IAM permissions
+- **Docker** - For building container images (optional, images provided)
+- **kubectl** - Kubernetes command-line tool (v1.19+)
+- **eksctl** - AWS EKS cluster management tool
+- **AWS CLI v2** - AWS command-line interface
+### AWS Resources
+ 
+- IAM user with `AdministratorAccess` policy
+- AWS Access Key and Secret Access Key
+- EC2 key pair for SSH access
+- Sufficient service quotas for EKS, EC2, and load balancers
+---
 
 ### IAM Configuration
 - Create a user `eks-admin` with `AdministratorAccess`.
